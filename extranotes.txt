@@ -1,0 +1,32 @@
+on_any_event(): Called for all event handlers.
+● on_created(): Called when a file or a directory is
+created.
+● on_modified(): Called when a file or directory is
+modified.
+● on_moved(): Called when a file or a directory is
+moved or renamed.
+● on_deleted(): Called when a file or directory is
+deleted.
+
+
+
+Exceptions:
+An exception is an event that is triggered when an
+error occurs in a program.
+The exception event is triggered by the programming
+language software to tell which error has occurred.
+There are:
+1. Built-in Exception events: These events are
+defined by some commonly known error that can
+occur while the program is running.
+2. User-defined Exception events: These events are
+defined by the users to track errors differently from
+built-in.
+
+We use try-except to find and handle the error in some
+code block by triggering exception events.
+
+Python executes code inside the try statement as a
+“normal” part of the program.
+The code inside the except statement is the program’s
+response to any exceptions in the preceding try clause.
